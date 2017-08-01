@@ -15,14 +15,7 @@ public class Alice {
         System.out.println("Please enter a word to search for in the sentence.");
         searchTerm = next();
 
-        firstSentence.toLowerCase();
-        searchTerm.toLowerCase();
-        if (firstSentence.contains(searchTerm)) {
-            System.out.println("true");
-        }
-        else {
-            System.out.println("false");
-        }
+
 
     }
 }
